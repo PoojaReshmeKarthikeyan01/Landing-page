@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Page</title>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: linear-gradient(135deg, #ffffff, #f0f0f0);
+            color: black;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .content {
+            width: 80%;
+            padding: 20px;
+            background: linear-gradient(135deg, #800000, #400000);
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #ffffff;
+        }
+        .button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #ffffff;
+            color: #800000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .button:hover {
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Welcome to the Next Page</h1>
+        <p>Web development is the process of creating websites and web applications, covering everything from simple static pages to complex web-based software. It is divided into several key areas:</p>
+        <p>
+        <strong>1. Frontend Development (Client-Side)</strong><br>
+        This involves everything users see and interact with on a website. Technologies used include:
+        </p>
+        <ul>
+            <li><strong>HTML (HyperText Markup Language)</strong> – Defines the structure of web pages.</li>
+            <li><strong>CSS (Cascading Style Sheets)</strong> – Styles the appearance of web pages (colors, layouts, fonts).</li>
+            <li><strong>JavaScript</strong> – Adds interactivity and dynamic content.</li>
+            <li><strong>Frameworks & Libraries:</strong>
+                <ul>
+                    <li>React.js, Angular, Vue.js – For building interactive UIs.</li>
+                    <li>Bootstrap, Tailwind CSS – For styling and layout.</li>
+                    <li>jQuery – Simplifies JavaScript for easier DOM manipulation.</li>
+                </ul>
+            </li>
+        </ul>
+        <p>This page provides additional information. Thank you for clicking the button!</p>
+        <button class="button" onclick="window.location.href='index.html'">Back to Home</button>
+    </div>
+</body>
+</html>

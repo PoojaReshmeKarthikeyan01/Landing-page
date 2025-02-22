@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: url('https://www.example.com/path-to-background-image.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .header {
+            background: linear-gradient(135deg, #800000, #400000);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            box-shadow: 0px 0px 10px #ffffff;
+            width: 100%;
+            border-radius: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+            flex-grow: 1;
+        }
+        .box {
+            width: 50%;
+            padding: 20px;
+            background: linear-gradient(135deg, #800000, #400000);
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            color: white;
+            font-weight: bold;
+            box-shadow: 0px 0px 10px #ffffff;
+            
+        }
+        .button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #ffffff;
+            color: #800000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .button:hover {
+            background: #ddd;
+        }
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Our Landing Page</h1>
+    </div>
+    <div class="container">
+        <p>Welcome to our website! We aim to provide the best content and user experience. Explore the sections below to learn more.</p>
+        <div class="box">
+            Section 1
+            <br>
+            <button class="button" onclick="window.location.href='nextpage.html'">Click to enter Next Page</button>
+        </div>
+        <div class="box">
+            Section 2
+            <br>
+            <button class="button" onclick="window.location.href='nextpage.html'">Click to enter Next Page</button>
+        </div>
+        <div class="box">
+            Section 3
+            <br>
+            <button class="button" onclick="window.location.href='nextpage.html'">Click to enter Next Page</button>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Landing Page. All rights reserved.</p>
+    </div>
+</body>
+</html>
